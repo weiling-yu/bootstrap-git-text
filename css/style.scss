@@ -76,3 +76,29 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+#reserve-table {
+    @include zero-margin(0px,0px);
+    .modal-header {
+        background-color: $background-dark;
+        color: floralwhite;
+    }
+    .modal-body {
+        background-color: $background-pale;
+    }
+    .close {
+        color: floralwhite;
+    }
+}
+#login-modal {
+    @include zero-margin(0px,0px);
+    .modal-header {
+        background-color: $background-dark;
+        color: floralwhite;
+    }
+    .modal-body {
+        background-color: $background-pale;
+    }
+    .close {
+        color: floralwhite;
+    }
+}
